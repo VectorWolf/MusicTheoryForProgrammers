@@ -6,7 +6,7 @@
 # What is a note?
 To be super general, a note itself is nothing but a soundwave with a distinct frequency. 1337Hz for example, thats a note. But what usually is meant when most musical persons talk about notes is a note in the western 12-tone-equal-temperament-system. Virtually all pop music, from classic till today is written in it (or slightest variations of it). This system builds on the repetition of 12 reocurring notes.
 
-How this works? It's relatively easy, you start at a frequency, lets say 440Hz, thats our zero'th note and by doubling it to 880Hz you get the 12th note. The notes inbetween are a bit more difficult to calculate, since we can't just interpolate linearly but have to "follow the curvature" of the x² function. This means to get the next note, you have to multiply with the 12th root of two which is roughly 1.05946... . Here's an example starting from 440Hz with rounding applied.
+How this works? It's relatively easy, you start at a frequency, lets say 440Hz, thats our zero'th note and by doubling it to 880Hz you get the 12th note. The notes inbetween are a bit more difficult to calculate, since we can't just interpolate linearly but have to "follow the curvature" of the 2^x function. This means to get the next note, you have to multiply with the 12th root of two which is roughly 1.05946... . Here's an example starting from 440Hz with rounding applied.
 
 |Step     |  0  |  1  |  2  |  3  |  4  |  5  |  6  |  7  |  8  |  9  |  10 |  11 |  12 |
 |---------|-----|-----|-----|-----|-----|-----|-----|-----|-----|-----|-----|-----|-----|
