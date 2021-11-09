@@ -105,22 +105,22 @@ Now a chord is nothing but a set of notes played together at the same time. Thes
 
 The root note, which is usually the lowest note of the chord, gives the chord its name. You can construct a chord similarly to a scale by starting at the root note and adding steps. There are four common triads.
 
-|Major|
+|Major|0|1|2|
 |-|-|-|-|
 |Between|0|4|3|
 |Relative|0|4|7|
 
-|Minor|
+|Minor|0|1|2|
 |-|-|-|-|
 |Between|0|3|4|
 |Relative|0|3|7|
 
-|Diminished|
+|Diminished|0|1|2|
 |-|-|-|-|
 |Between|0|3|3|
 |Relative|0|3|6|
 
-|Augmented|
+|Augmented|0|1|2|
 |-|-|-|-|
 |Between|0|4|4|
 |Relative|0|4|8|
@@ -132,6 +132,7 @@ So for example; If you wanted to play an E Augmented chord which is a 4 in integ
 Additionaly there are so called inversions of chords. You construct them by shifting the lowest note up an octave so that the lowest note is no longer the root. The first inversion is if you do this once, the second inversion if done twice, so the third note would be the lowest in this case. With the upper example starting with E2 it would result in
 
 |Root Position|24|28|30|
+|-|-|-|-|
 |1. Inversion|28|30|34|
 |2. Inversion|30|34|38|
 
