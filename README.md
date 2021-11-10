@@ -196,6 +196,30 @@ You may skip the sign after the "o" if the note isn't ambiguous (means there is 
 These equations only show an example and not directly the principle of "pushing the lowest note up an octave"/"dropping the highest note down an octave". But it should get the point across nevertheless
 
 ### Scale degrees
+Lets take for context the scale 2741 (Ionian/Major). It has the intervals [2,2,1,2,2,2,1] and the notes of the scale relative to the root note are {0,2,4,5,7,9,B}
+The common triads for each degree of the scale are:
+
+<img src="https://latex.codecogs.com/png.latex?%5Cdpi%7B150%7D%20%5Cbg_white%20%5Clarge%20%5C%5C1.d_%7B%5C%23%7D%5C%5C%202.d_%7B%5C%25%7D%5C%5C%203.d_%7B%5C%25%7D%5C%5C%204.d_%7B%5C%23%7D%5C%5C%205.d_%7B%5C%23%7D%5C%5C%206.d_%7B%5C%25%7D%5C%5C%207.d_%7Bd%7D"> or <img src="https://latex.codecogs.com/png.latex?%5Cdpi%7B150%7D%20%5Cbg_white%20%5Clarge%20%5C%5C&plus;0_%7B%5C%23%7D%5C%5C%20&plus;2_%7B%5C%25%7D%5C%5C%20&plus;4_%7B%5C%25%7D%5C%5C%20&plus;5_%7B%5C%23%7D%5C%5C%20&plus;7_%7B%5C%23%7D%5C%5C%20&plus;9_%7B%5C%25%7D%5C%5C%20&plus;B_%7Bd%7D"> in root relative notation.
+
+Using this notation you know what chords to play at which degree. If you use the second notation the scale is even encoded into the chords and you only need to add each chord onto the root note (modulo 12) to get all matching chords for the scale/mode.
+
+<!---
+\\1.d_{\#}\\
+2.d_{\%}\\
+3.d_{\%}\\
+4.d_{\#}\\
+5.d_{\#}\\
+6.d_{\%}\\
+7.d_{d}
+
+\\+0_{\#}\\
++2_{\%}\\
++4_{\%}\\
++5_{\#}\\
++7_{\#}\\
++9_{\%}\\
++B_{d}
+-->
 
 ### Common Tetrads, Pentads, Hexads and so on...
 
