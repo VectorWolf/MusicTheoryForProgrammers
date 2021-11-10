@@ -244,6 +244,33 @@ DominantEleventh = C^{11} = C|E|G|B_b|D|F = 0|3|6|A|2|5 = 0_{\#}^{+A+12+15}\\
 DominantThirteenth = C^{13} = C|E|G|B_b|D|F|A = 0|3|6|A|2|5|9 = 0_{\#}^{+A+12+15+19}
 -->
 
+#### Altered chords
+<img src="https://latex.codecogs.com/png.latex?%5Cdpi%7B150%7D%20%5Cbg_white%20%5C%5CSeventhMinorNinth%20%3D%20C%5E%7B7b9%7D%20%3D%20C%7CE%7CG%7CB_b%7CD_b%20%3D%200%7C4%7C7%7CA%7C1%20%3D%200_%7B%5C%23%7D%5E%7B&plus;A&plus;11%7D%5C%5C%20SeventhSharpNinth%20%3D%20C%5E%7B7%5C%239%7D%20%3D%20C%7CE%7CG%7CB_b%7CD_%5C%23%20%3D%200%7C4%7C7%7CA%7C3%20%3D%200_%7B%5C%23%7D%5E%7B&plus;A&plus;13%7D%5C%5C%20SeventhAugmentedEleventh%20%3D%5C%5C%20C%5E%7B7%5C%2311%7D%20%3D%20C%7CE%7CG%7CB_b%7CD%7CF_%5C%23%20%3D%200%7C4%7C7%7CA%7C2%7C6%20%3D%200_%7B%5C%23%7D%5E%7B&plus;A&plus;12&plus;16%7D%5C%5C%20SeventhDiminishedThirteenth%20%3D%5C%5C%20C%5E%7B7b13%7D%20%3D%20C%7CE%7CG%7CB_b%7CD%7CF%7CA_b%20%3D%200%7C4%7C7%7CA%7C2%7C5%7C8%20%3D%200_%7B%5C%23%7D%5E%7B&plus;A&plus;12&plus;15&plus;18%7D">
+<!---
+\\SeventhMinorNinth = C^{7b9} = C|E|G|B_b|D_b = 0|4|7|A|1 = 0_{\#}^{+A+11}\\
+SeventhSharpNinth = C^{7\#9} = C|E|G|B_b|D_\# = 0|4|7|A|3 = 0_{\#}^{+A+13}\\
+SeventhAugmentedEleventh =\\ C^{7\#11} = C|E|G|B_b|D|F_\# = 0|4|7|A|2|6 = 0_{\#}^{+A+12+16}\\
+SeventhDiminishedThirteenth =\\ C^{7b13} = C|E|G|B_b|D|F|A_b = 0|4|7|A|2|5|8 = 0_{\#}^{+A+12+15+18}
+-->
+
+#### Added tone chords
+<img src="https://latex.codecogs.com/png.latex?%5Cdpi%7B150%7D%20%5Cbg_white%20%5C%5CAddNine%20%3D%20C%5E%7Badd9%7D%20%3D%20C%7CE%7CG%7CD%20%3D%200%7C4%7C7%7C2%20%3D%200_%7B%5C%23%7D%5E%7B&plus;12%7D%5C%5C%20AddFourth%20%3D%20C%5E%7Badd11%7D%20%3D%20C%7CE%7CG%7CF%20%3D%200%7C4%7C7%7C5%20%3D%200_%7B%5C%23%7D%5E%7B&plus;15%7D%5C%5C%20AddSixth%20%3D%20C%5E%7B6%7D%20%3D%20C%7CE%7CG%7CA%20%3D%200%7C4%7C7%7C9%20%3D%200_%7B%5C%23%7D%5E%7B&plus;9%7D%5C%5C%20SixNine%20%3D%20C%5E%7B6/9%7D%20%3D%20C%7CE%7CG%7CA%7CD%20%3D%200%7C4%7C7%7C9%7C2%20%3D%200_%7B%5C%23%7D%5E%7B&plus;9&plus;12%7D%5C%5C%20SevenSix%20%3D%20C%5E%7B7/6%7D%20%3D%20C%7CE%7CG%7CA%7CB_b%20%3D%200%7C4%7C7%7C9%7CA%20%3D%200_%7B%5C%23%7D%5E%7B&plus;9&plus;A%7D">
+<!---
+\\AddNine = C^{add9} = C|E|G|D = 0|4|7|2 = 0_{\#}^{+12}\\
+AddFourth = C^{add11} = C|E|G|F = 0|4|7|5 = 0_{\#}^{+15}\\
+AddSixth = C^{6} = C|E|G|A = 0|4|7|9 = 0_{\#}^{+9}\\
+SixNine = C^{6/9} = C|E|G|A|D = 0|4|7|9|2 = 0_{\#}^{+9+12}\\
+SevenSix = C^{7/6} = C|E|G|A|B_b = 0|4|7|9|A = 0_{\#}^{+9+A}
+-->
+
+#### Others
+<img src="https://latex.codecogs.com/png.latex?%5Cdpi%7B150%7D%20%5Cbg_white%20%5C%5CPowerChord%20%3D%20C5%20%3D%20C%7CG%20%3D%200%7C7%20%3D%200%5E%7B&plus;7%7D%5C%5C%20SlashChord%20%3D%20C/D%20%3D%20D%7CC%7CE%7CG%20%3D%202%7C0%7C4%7C7%20%3D%200_%5C%23%5E%7B-10%7D%5C%5C%20SlashChord%20%3D%20C/G%20%3D%20G%7CC%7CE%20%3D%207%7C0%7C4%20%3D%200_%7B%5C%23-1%7D">
+<!---
+\\PowerChord = C5 = C|G = 0|7 = 0^{+7}\\
+SlashChord = C/D = D|C|E|G = 2|0|4|7 = 0_\#^{-10}\\
+SlashChord = C/G = G|C|E = 7|0|4 = 0_{\#-1}
+-->
+
 ### Why use this?
 Because it has one big strong point. If you learn the relatively easy principles how to build a chord with this system, you can read and write any possible chord existing inside the 12-tone equal temperament system. 
 
