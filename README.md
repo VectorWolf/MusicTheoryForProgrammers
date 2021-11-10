@@ -139,16 +139,38 @@ Additionaly there are so called inversions of chords. You construct them by shif
 Notation of chords with more than three notes (in traditional notation) usually is a bit hard to read, i refer to wikipedia for that... https://en.wikipedia.org/wiki/Chord_(music)#Notation_in_popular_music
 
 # Equations I guess?
+<!--- Generated with https://www.codecogs.com/latex/eqneditor.php -->
 
-<img src="https://latex.codecogs.com/png.latex?%5Cbg_white%20%5Clarge%20%5C%5CD_%20%7BMaj%7D%20%3D%202%7C6%7C9%20%3D%202%5E%7B6%7C9%7D%20%3D%202%5E%7B&plus;4&plus;7%7D%20%3D%202_%7B%5C%23%7D%5C%5C%20E_%7BMin%7D%20%3D%204%7C7%7CB%20%3D%204%5E%7B7%7CB%7D%20%3D%204%5E%7B&plus;3&plus;7%7D%20%3D%204_%7B%5C%25%7D%5C%5C%20F_%7BDim%7D%20%3D%205%7C8%7CB%20%3D%205%5E%7B8%7CB%7D%20%3D%205%5E%7B&plus;3&plus;6%7D%20%3D%205_%7Bd%7D%5C%5C%20G_%7BAug%7D%20%3D%207%7C0%7C4%20%3D%207%5E%7B0%7C4%7D%20%3D%207%5E%7B&plus;4&plus;8%7D%20%3D%207_%7Ba%7D%5C%5C">
+Here you can see an alternative method for displaying all common types of triads in integer notation. The + in superscript means "Add the root plus this step as an additional note", the minus sign works analogous.
+
+The subscript "#,%,d,a,s2,s5" symbols are nothing but mere macros as you may know from programming.
+
+In addition to plus and minus there is also the o, which stands for "omit". So a 5#/o+7 wouldn't be 5|9|0 but only 5|9.
+
+You can also specify a chord at a specific tonal height by using a two digit number as the root.
+
+You can also express inversions by appending +1, +2, -1 or -2 to the subscript. This means you can only invert the root and the notes expressed by the subscript macro. This means for heptads, pentads or more you have to either adjust the superscript accordingly to match the inversion or define a macro for these chords locally.
+
+<img src="https://latex.codecogs.com/png.latex?%5Cdpi%7B150%7D%20%5Cbg_white%20%5Clarge%20%5C%5CD_%20%7BMaj%7D%20%3D%20D%7CF_%5C%23%7CA%20%3D%202%7C6%7C9%20%3D%202%5E%7B6%7C9%7D%20%3D%202%5E%7B&plus;4&plus;7%7D%20%3D%202_%7B%5C%23%7D%5C%5C%20E_%7BMin%7D%20%3D%20E%7CG%7CB%20%3D%204%7C7%7CB%20%3D%204%5E%7B7%7CB%7D%20%3D%204%5E%7B&plus;3&plus;7%7D%20%3D%204_%7B%5C%25%7D%5C%5C%20F_%7BDim%7D%20%3D%20F%7CG_%5C%23%7CB%20%3D%205%7C8%7CB%20%3D%205%5E%7B8%7CB%7D%20%3D%205%5E%7B&plus;3&plus;6%7D%20%3D%205_%7Bd%7D%5C%5C%20G_%7BAug%7D%20%3D%20G%7CC%7CE%20%3D%207%7C0%7C4%20%3D%207%5E%7B0%7C4%7D%20%3D%207%5E%7B&plus;4&plus;8%7D%20%3D%207_%7Ba%7D%5C%5C%20A_%7BSus2%7D%20%3D%20A%7CB%7CE%20%3D%209%7CB%7C4%20%3D%209%5E%7BB%7C4%7D%20%3D%209%5E%7B&plus;2&plus;7%7D%20%3D%209_%7Bs2%7D%5C%5C%20B_%7BSus4%7D%20%3D%20B%7CE%7CF_%5C%23%20%3D%20B%7C4%7C6%20%3D%20B%5E%7B4%7C6%7D%20%3D%20B%5E%7B&plus;5&plus;7%7D%20%3D%20B_%7Bs5%7D%5C%5C"> <img src="https://latex.codecogs.com/png.latex?%5Cdpi%7B150%7D%20%5Cbg_white%20%5Clarge%20%5C%5C%5CRightarrow%20X%5E%7B&plus;4&plus;7%7D%20%3D%20X_%7B%5C%23%7D%5C%5C%20%5CRightarrow%20X%5E%7B&plus;3&plus;7%7D%20%3D%20X_%7B%5C%25%7D%5C%5C%20%5CRightarrow%20X%5E%7B&plus;3&plus;6%7D%20%3D%20X_%7Bd%7D%5C%5C%20%5CRightarrow%20X%5E%7B&plus;4&plus;8%7D%20%3D%20X_%7Ba%7D%5C%5C%20%5CRightarrow%20X%5E%7B&plus;2&plus;7%7D%20%3D%20X_%7Bs2%7D%5C%5C%20%5CRightarrow%20X%5E%7B&plus;5&plus;7%7D%20%3D%20X_%7Bs5%7D">
 <!---
-\\D_ {Maj} = 2|6|9 = 2^{6|9} = 2^{+4+7} = 2_{\#}\\
-E_{Min} = 4|7|B = 4^{7|B} = 4^{+3+7} = 4_{\%}\\
-F_{Dim} = 5|8|B = 5^{8|B} = 5^{+3+6} = 5_{d}\\
-G_{Aug} = 7|0|4 = 7^{0|4} = 7^{+4+8} = 7_{a}
+\\D_ {Maj} = D|F_\#|A = 2|6|9 = 2^{6|9} = 2^{+4+7} = 2_{\#}\\
+E_{Min} = E|G|B = 4|7|B = 4^{7|B} = 4^{+3+7} = 4_{\%}\\
+F_{Dim} = F|G_\#|B = 5|8|B = 5^{8|B} = 5^{+3+6} = 5_{d}\\
+G_{Aug} = G|C|E = 7|0|4 = 7^{0|4} = 7^{+4+8} = 7_{a}\\
+A_{Sus2} = A|B|E = 9|B|4 = 9^{B|4} = 9^{+2+7} = 9_{s2}\\
+B_{Sus4} = B|E|F_\# = B|4|6 = B^{4|6} = B^{+5+7} = B_{s5}\\
 -->
 
-<img src="https://latex.codecogs.com/png.latex?%5Cbg_white%20%5Clarge%20G_3%5C%23_%7BMinor%7D%20%3D%2038%7C3B%7C43%20%3D%2038%5E%7B3B%7C43%7D%20%3D%2038%5E%7B&plus;3&plus;7%7D%20%3D%2038_%7B%5C%25%7D">
+<!---
+\\\Rightarrow X^{+4+7} = X_{\#}\\
+\Rightarrow X^{+3+7} = X_{\%}\\
+\Rightarrow X^{+3+6} = X_{d}\\
+\Rightarrow X^{+4+8} = X_{a}\\
+\Rightarrow X^{+2+7} = X_{s2}\\
+\Rightarrow X^{+5+7} = X_{s5}
+-->
+
+<img src="https://latex.codecogs.com/png.latex?%5Cdpi%7B150%7D%20%5Cbg_white%20%5Clarge%20G_3%5C%23_%7BMinor%7D%20%3D%2038%7C3B%7C43%20%3D%2038%5E%7B3B%7C43%7D%20%3D%2038%5E%7B&plus;3&plus;7%7D%20%3D%2038_%7B%5C%25%7D">
 <!---
 G_3\#_{Minor} = 38|3B|43 = 38^{3B|43} = 38^{+3+7} = 38_{\%}
 -->
