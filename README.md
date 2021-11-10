@@ -222,6 +222,27 @@ Using this notation you know what chords to play at which degree. If you use the
 -->
 
 ### Common Tetrads, Pentads, Hexads and so on...
+Just a collection of the stuff I can dig up on wikipedia of what to seem somewhat common and useful chords. I'll always take the 0 chord as reference.
+#### Seventh Chords
+<img src="https://latex.codecogs.com/png.latex?%5Cdpi%7B150%7D%20%5Cbg_white%20%5C%5CDiminishedSeventh%20%3D%20Cdim%5E7%20%3D%20C%7CE_b%7CG_b%7CB_%7Bbb%7D%20%3D%200%7C3%7C6%7C9%20%3D%200_%7Bd%7D%5E%7B&plus;9%7D%5C%5C%20HalfDiminishedSeventh%20%3D%20Cm%5E%7B7b5%7D%20%3D%20C%7CE_b%7CG_b%7CB_b%20%3D%200%7C3%7C6%7CA%20%3D%200_%7Bd%7D%5E%7B&plus;A%7D%5C%5C%20MinorSeventh%20%3D%20Cm%5E%7B7%7D%20%3D%20C%7CE_b%7CG%7CB_b%20%3D%200%7C3%7C7%7CA%20%3D%200_%7B%25%7D%5E%7B&plus;A%7D%5C%5C%20MinorMajorSeventh%20%3D%20Cm%5E%7Bmaj7%7D%20%3D%20C%7CE_b%7CG%7CB%20%3D%200%7C3%7C7%7CB%20%3D%200_%7B%25%7D%5E%7B&plus;B%7D%5C%5C%20DominantSeventh%20%3D%20C%5E%7B7%7D%20%3D%20C%7CE%7CG%7CB_b%20%3D%200%7C4%7C7%7CA%20%3D%200_%7B%5C%23%7D%5E%7B&plus;A%7D%5C%5C%20MajorSeventh%20%3D%20C%5E%7Bmaj7%7D%20%3D%20C%7CE%7CG%7CB%20%3D%200%7C4%7C7%7CB%20%3D%200_%7B%5C%23%7D%5E%7B&plus;B%7D%5C%5C%20AugmentedSeventh%20%3D%20Caug%5E%7B7%7D%20%3D%20C%7CE%7CG_%5C%23%7CB_b%20%3D%200%7C4%7C8%7CA%20%3D%200_%7Ba%7D%5E%7B&plus;A%7D%5C%5C%20AugmentedMajorSeventh%20%3D%20Caug%5E%7Bmaj7%7D%20%3D%20C%7CE%7CG_%5C%23%7CB%20%3D%200%7C4%7C8%7CB%20%3D%200_%7Ba%7D%5E%7B&plus;B%7D">
+<!---
+\\DiminishedSeventh = Cdim^7 = C|E_b|G_b|B_{bb} = 0|3|6|9 = 0_{d}^{+9}\\
+HalfDiminishedSeventh = Cm^{7b5} = C|E_b|G_b|B_b = 0|3|6|A = 0_{d}^{+A}\\
+MinorSeventh = Cm^{7} = C|E_b|G|B_b = 0|3|7|A = 0_{%}^{+A}\\
+MinorMajorSeventh = Cm^{maj7} = C|E_b|G|B = 0|3|7|B = 0_{%}^{+B}\\
+DominantSeventh = C^{7} = C|E|G|B_b = 0|4|7|A = 0_{\#}^{+A}\\
+MajorSeventh = C^{maj7} = C|E|G|B = 0|4|7|B = 0_{\#}^{+B}\\
+AugmentedSeventh = Caug^{7} = C|E|G_\#|B_b = 0|4|8|A = 0_{a}^{+A}\\
+AugmentedMajorSeventh = Caug^{maj7} = C|E|G_\#|B = 0|4|8|B = 0_{a}^{+B}
+-->
+
+#### Extended Chords
+<img src="https://latex.codecogs.com/png.latex?%5Cdpi%7B150%7D%20%5Cbg_white%20%5C%5CDominantNinth%20%3D%20C%5E9%20%3D%20C%7CE%7CG%7CB_b%7CD%20%3D%200%7C3%7C6%7CA%7C2%20%3D%200_%7B%5C%23%7D%5E%7B&plus;A&plus;12%7D%5C%5C%20DominantEleventh%20%3D%20C%5E%7B11%7D%20%3D%20C%7CE%7CG%7CB_b%7CD%7CF%20%3D%200%7C3%7C6%7CA%7C2%7C5%20%3D%200_%7B%5C%23%7D%5E%7B&plus;A&plus;12&plus;15%7D%5C%5C%20DominantThirteenth%20%3D%20C%5E%7B13%7D%20%3D%20C%7CE%7CG%7CB_b%7CD%7CF%7CA%20%3D%200%7C3%7C6%7CA%7C2%7C5%7C9%20%3D%200_%7B%5C%23%7D%5E%7B&plus;A&plus;12&plus;15&plus;19%7D">
+<!---
+\\DominantNinth = C^9 = C|E|G|B_b|D = 0|3|6|A|2 = 0_{\#}^{+A+12}\\
+DominantEleventh = C^{11} = C|E|G|B_b|D|F = 0|3|6|A|2|5 = 0_{\#}^{+A+12+15}\\
+DominantThirteenth = C^{13} = C|E|G|B_b|D|F|A = 0|3|6|A|2|5|9 = 0_{\#}^{+A+12+15+19}
+-->
 
 ### Why use this?
 Because it has one big strong point. If you learn the relatively easy principles how to build a chord with this system, you can read and write any possible chord existing inside the 12-tone equal temperament system. 
