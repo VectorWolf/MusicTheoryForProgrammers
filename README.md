@@ -141,9 +141,17 @@ Notation of chords with more than three notes (in traditional notation) usually 
 # Equations I guess?
 
 <img src="https://latex.codecogs.com/png.latex?%5Cbg_white%20%5Clarge%20%5C%5CD_%20%7BMaj%7D%20%3D%202%7C6%7C9%20%3D%202%5E%7B6%7C9%7D%20%3D%202%5E%7B&plus;4&plus;7%7D%20%3D%202_%7B%5C%23%7D%5C%5C%20E_%7BMin%7D%20%3D%204%7C7%7CB%20%3D%204%5E%7B7%7CB%7D%20%3D%204%5E%7B&plus;3&plus;7%7D%20%3D%204_%7B%5C%25%7D%5C%5C%20F_%7BDim%7D%20%3D%205%7C8%7CB%20%3D%205%5E%7B8%7CB%7D%20%3D%205%5E%7B&plus;3&plus;6%7D%20%3D%205_%7Bd%7D%5C%5C%20G_%7BAug%7D%20%3D%207%7C0%7C4%20%3D%207%5E%7B0%7C4%7D%20%3D%207%5E%7B&plus;4&plus;8%7D%20%3D%207_%7Ba%7D%5C%5C">
+<!---
+\\D_ {Maj} = 2|6|9 = 2^{6|9} = 2^{+4+7} = 2_{\#}\\
+E_{Min} = 4|7|B = 4^{7|B} = 4^{+3+7} = 4_{\%}\\
+F_{Dim} = 5|8|B = 5^{8|B} = 5^{+3+6} = 5_{d}\\
+G_{Aug} = 7|0|4 = 7^{0|4} = 7^{+4+8} = 7_{a}
+-->
 
 <img src="https://latex.codecogs.com/png.latex?%5Cbg_white%20%5Clarge%20G_3%5C%23_%7BMinor%7D%20%3D%2038%7C3B%7C43%20%3D%2038%5E%7B3B%7C43%7D%20%3D%2038%5E%7B&plus;3&plus;7%7D%20%3D%2038_%7B%5C%25%7D">
-
+<!---
+G_3\#_{Minor} = 38|3B|43 = 38^{3B|43} = 38^{+3+7} = 38_{\%}
+-->
 
 # Stuff i want to say but doesn't fit anywhere
 
