@@ -185,10 +185,22 @@ G5 = G|C = 7|0 = 7_{\#}^{o+4} = 7_{\#}^{o4} = 7^{+7}
 You may skip the sign after the "o" if the note isn't ambiguous (means there is no +x AND -x at the same time inside the macro of the subscript)
 
 ### Inversions
+<img src="https://latex.codecogs.com/png.latex?%5Cdpi%7B150%7D%20%5Cbg_white%20%5Clarge%20%5C%5C0%7C4%7C7%20%3D%200%5E%7B&plus;4&plus;7%7D%20%3D%200_%7B%5C%23%7D%5C%5C%204%7C7%7C0%20%3D%200%5E%7Bo0&plus;10%7D_%7B%5C%23%7D%20%3D%200_%7B%5C%23&plus;1%7D%20%3D%200_%7B%5C%23-2%7D%5C%5C%207%7C0%7C4%20%3D%200%5E%7Bo4&plus;14%7D_%7B%5C%23&plus;1%7D%20%3D%200_%7B%5C%23&plus;2%7D%20%3D%200_%7B%5C%23-1%7D%5C%5C%20%5C%5C%2024%7C27%7C30%20%3D%2020_%7B%5C%23&plus;1%7D%5Cneq20_%7B%5C%23-2%7D%20%3D%2013%7C17%7C20">
+<!---
+\\0|4|7 = 0^{+4+7} = 0_{\#}\\
+4|7|0 = 0^{o0+10}_{\#} = 0_{\#+1} = 0_{\#-2}\\
+7|0|4 = 0^{o4+14}_{\#+1} = 0_{\#+2} = 0_{\#-1}\\
+\\
+24|27|30 = 20_{\#+1}\neq20_{\#-2} = 13|17|20
+-->
+These equations only show an example and not directly the principle of "pushing the lowest note up an octave"/"dropping the highest note down an octave". But it should get the point across nevertheless
 
 ### Scale degrees
 
 ### Common Tetrads, Pentads, Hexads and so on...
+
+### Why use this?
+Because it has one big strong point. If you learn the relatively easy principles how to build a chord with this system, you can read and write any possible chord existing inside the 12-tone equal temperament system. 
 
 # Stuff i want to say but doesn't fit anywhere
 
