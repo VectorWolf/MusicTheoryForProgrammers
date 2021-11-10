@@ -138,6 +138,13 @@ Additionaly there are so called inversions of chords. You construct them by shif
 
 Notation of chords with more than three notes (in traditional notation) usually is a bit hard to read, i refer to wikipedia for that... https://en.wikipedia.org/wiki/Chord_(music)#Notation_in_popular_music
 
+# Equations I guess?
+
+<img src="https://latex.codecogs.com/png.latex?%5Cbg_white%20%5Clarge%20%5C%5CD_%20%7BMaj%7D%20%3D%202%7C6%7C9%20%3D%202%5E%7B6%7C9%7D%20%3D%202%5E%7B&plus;4&plus;7%7D%20%3D%202_%7B%5C%23%7D%5C%5C%20E_%7BMin%7D%20%3D%204%7C7%7CB%20%3D%204%5E%7B7%7CB%7D%20%3D%204%5E%7B&plus;3&plus;7%7D%20%3D%204_%7B%5C%25%7D%5C%5C%20F_%7BDim%7D%20%3D%205%7C8%7CB%20%3D%205%5E%7B8%7CB%7D%20%3D%205%5E%7B&plus;3&plus;6%7D%20%3D%205_%7Bd%7D%5C%5C%20G_%7BAug%7D%20%3D%207%7C0%7C4%20%3D%207%5E%7B0%7C4%7D%20%3D%207%5E%7B&plus;4&plus;8%7D%20%3D%207_%7Ba%7D%5C%5C">
+
+<img src="https://latex.codecogs.com/png.latex?%5Cbg_white%20%5Clarge%20G_3%5C%23_%7BMinor%7D%20%3D%2038%7C3B%7C43%20%3D%2038%5E%7B3B%7C43%7D%20%3D%2038%5E%7B&plus;3&plus;7%7D%20%3D%2038_%7B%5C%25%7D">
+
+
 # Stuff i want to say but doesn't fit anywhere
 
 I made a little python script into which you can feed an arbitrary scale (and a root note) and it generates not only the scale or all possible modes of that but also can generate all possibly fitting chords. I found it very useful but it's not that easy to use. I'll work on that if I got time and motivation :-D
