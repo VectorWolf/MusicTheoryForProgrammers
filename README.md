@@ -12,6 +12,7 @@ How this works? It's relatively easy, you start at a frequency, lets say 440Hz, 
 |---------|-----|-----|-----|-----|-----|-----|-----|-----|-----|-----|-----|-----|-----|
 |Factor   | 1.0 |1.059|1.122|1.189|1.260|1.335|1.414|1.498|1.584|1.682|1.782|1.888| 2.0 |
 |Frequency| 440 |466.2|493.9|523.3|554.4|587.3|622.3|659.3|698.5|740.0|784.0|830.6| 880 |
+|~Ratio| 1:1 |16:15|9:8|6:5|5:4|4:3|17:12|3:2|8:5|5:3|16:9|15:8|2:1|
 
 The cool thing is you can choose any step count and any factor to get another n-tone equal temperament system. 24th root of three sounds pretty cool for example. But you can also choose to interpolate differently or instead of using a formula, choosing each tone individually. There is no real right and wrong, use what sounds well and have fun!
 
@@ -38,14 +39,15 @@ This notation will get us the relative pitch pretty easily, but we need another 
 
 The space between two played notes is called an interval. For example we already know that if two notes are 12 steps or semitones apart it's called an octave. The really interesting part about intervals is how they sound together. Frequencies with simple rations to each other usually sound nice together. But there are also other things to factor in. The distance to the base note for example. A somewhat bad sounding interval usually is way more bearable if played an octave higher. Also the so called overtones an instrument produces are a huge factor and can totally mess up the perceived consonance or dissonance of the intervals.
 
-To estimate how consonant or dissonnant a chord will sound it can be useful to "rank" the intervals in "niceness". That'll make it possible to asess the overall niceness of any chord we construct. (It is said that the inverse of a note is functionally equivalent, but this also inverts the interval. To make things easier and way more practical the inverse of an interval will always have the same niceness. This makes the inversions of a chord theoratically just as nice as the base chord.)
+To take this further apart from the somewhat similar concpet of notes. The difference between intervals and notes is as subtle and yet important as the difference between the number 2 and the function +2.
+
+To estimate how consonant or dissonnant a chord will sound it can be useful to "rank" the intervals in dissonance. That'll make it possible to asess the overall niceness of any chord we construct. (It is said that the inverse of a note is functionally equivalent, but this also inverts the interval. To make things easier and way more practical the inverse of an interval will always have the same dissonance. This makes the inversions of a chord theoratically just as nice as the base chord.)
 
 |Step     |  0  |  1  |  2  |  3  |  4  |  5  |  6  |  7  |  8  |  9  |  10 |  11 |  12 |
 |---------|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|
 |Trad. Name|Perfect Unison|Minor second|Major second|Minor third|Major third|Perfect fourth|Tritone|Perfect Fifth|Minor Sixth|Major sixth|Minor Seventh|Major Seventh|Perfect Octave|
-|Niceness | +3  | -2  | -1  |  0  |  +1 |  +2 | -1  |  +2 |  +1 |  0  |  -1 |  -2 |  +3 |
-
-(I'm totally not sure on a good way to come up with a niceness that can be practically used. Currently a major/minor chord would be less nice than their sus counterpart which doesn't match up with the perceived consonance. Maybe better make the metric about dissonance? Gonna test this out with 0 at octave and 1 at 1 and 11 semitones.)
+|~Ratio| 1:1 |16:15|9:8|6:5|5:4|4:3|17:12|3:2|8:5|5:3|16:9|15:8|2:1|
+|Dissonance| 0.0| 1.0 | 0.8 | 0.4 | 0.3 | 0.1 | 0.7 | 0.1 | 0.3 | 0.4 | 0.8 | 1.0 | 0.0 |
 
 # What is a scale?
 
