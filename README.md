@@ -34,6 +34,19 @@ What makes this even more awful is that you can accumulate as many # or b signs 
 
 This notation will get us the relative pitch pretty easily, but we need another number to indicate at what tonal "height" the played note is. The "normal" notation goes like A¹=55Hz, A²=110Hz, A³=220Hz for all notes. Again going with base 12 it's really easy, just add a number to the left to get a two digit number. 49 = 440Hz, 39 = 220Hz, 29 = 110Hz, 19 = 55Hz, 09 = 27.5Hz, 00 = 16.35Hz . Now we also know, a one digit note is always a relative note which may be played at any desired tonal height, a two digit note usually means an absolute note which is at only one distinct pitch.
 
+# What is an interval?
+
+The space between two played notes is called an interval. For example we already know that if two notes are 12 steps or semitones apart it's called an octave. The really interesting part about intervals is how they sound together. Frequencies with simple rations to each other usually sound nice together. But there are also other things to factor in. The distance to the base note for example. A somewhat bad sounding interval usually is way more bearable if played an octave higher. Also the so called overtones an instrument produces are a huge factor and can totally mess up the perceived consonance or dissonance of the intervals.
+
+To estimate how consonant or dissonnant a chord will sound it can be useful to "rank" the intervals in "niceness". That'll make it possible to asess the overall niceness of any chord we construct. (It is said that the inverse of a note is functionally equivalent, but this also inverts the interval. To make things easier and way more practical the inverse of an interval will always have the same niceness. This makes the inversions of a chord theoratically just as nice as the base chord.)
+
+|Step     |  0  |  1  |  2  |  3  |  4  |  5  |  6  |  7  |  8  |  9  |  10 |  11 |  12 |
+|---------|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|
+|Trad. Name|Perfect Unison|Minor second|Major second|Minor third|Major third|Perfect fourth|Tritone|Perfect Fifth|Minor Sixth|Major sixth|Minor Seventh|Major Seventh|Perfect Octave|
+|Niceness | +3  | -2  | -1  |  0  |  +1 |  +2 | -1  |  +2 |  +1 |  0  |  -1 |  -2 |  +3 |
+
+(I'm totally not sure on a good way to come up with a niceness that can be practically used. Currently a major/minor chord would be less nice than their sus counterpart which doesn't match up with the perceived consonance. Maybe better make the metric about dissonance? Gonna test this out with 0 at octave and 1 at 1 and 11 semitones.)
+
 # What is a scale?
 
 With scales it's the same as with notes. The general description is being just a an ordered set of notes. To narrow it down scales usually.. :
