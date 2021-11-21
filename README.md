@@ -43,6 +43,8 @@ To take this further apart from the somewhat similar concpet of notes. The diffe
 
 To estimate how consonant or dissonnant a chord will sound it can be useful to "rank" the intervals in dissonance. That'll make it possible to asess the overall niceness of any chord we construct. (It is said that the inverse of a note is functionally equivalent, but this also inverts the interval. To make things easier and way more practical the inverse of an interval will always have the same dissonance. This makes the inversions of a chord theoratically just as nice as the base chord.)
 
+This method isn't really scientific and based an my personal perception but for composing, understanding and using unusual chords it can be immensely practical.
+
 |Step     |  0  |  1  |  2  |  3  |  4  |  5  |  6  |  7  |  8  |  9  |  10 |  11 |  12 |
 |---------|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|
 |Trad. Name|Perfect Unison|Minor second|Major second|Minor third|Major third|Perfect fourth|Tritone|Perfect Fifth|Minor Sixth|Major sixth|Minor Seventh|Major Seventh|Perfect Octave|
@@ -152,6 +154,43 @@ Additionaly there are so called inversions of chords. You construct them by shif
 |2. Inversion|30|34|38|
 
 Notation of chords with more than three notes (in traditional notation) usually is a bit hard to read, i refer to wikipedia for that... https://en.wikipedia.org/wiki/Chord_(music)#Notation_in_popular_music
+
+## Chords appendix
+
+(Just jotting down some ideas, will rewrite in future)
+
+We can interpret a Triad just like a scale. Meaning that the between intervals form a circle. Starting from another step is the same as forming an inversion or generating a mode. Mode and inversions can be seen as synonymous. By arranging all possible combinations we can form all viable triads. I'll sort them by minimum step size.
+
+Dissonance is calculated by adding up the dissonance of each occurring interval and then dividing by the count.
+
+#### >= 4
+|Name|Steps|Root|1.Inv|2.Inv|Dissonance|
+|-|-|-|-|-|-|
+|Augmented| 4-4-4 | +4+8 | +4+8 | +4+8 | 0.35 |
+
+(Steps of inversions are identical in this case)
+
+#### >= 3
+|Name|Steps|Root|1.Inv|2.Inv|Dissonance|
+|-|-|-|-|-|-|
+|Major| 4-3-5 | +4+7 | +3+8 | +5+9 | 0.283 |
+|Minor| 3-4-5 | +3+7 | +4+9 | +5+8 | 0.283 |
+|Diminished| 3-3-6 | +3+6 | +3+9 | +6+9 | 0.5 |
+
+#### >= 2
+|Name|Steps|Root|1.Inv|2.Inv|Dissonance|
+|-|-|-|-|-|-|
+|NoName1| 2-3-7 | +2+5 | +3+A | +7+9 | 0.4 |
+|NoName2| 2-4-6 | +2+6 | +4+A | +6+8 | 0.438 |
+|Sus2/5 | 2-5-5 | +2+7 | +5+A | +5+7 | 0.383 |
+|NoName3| 2-6-4 | +2+8 | +6+A | +4+6 | 0.438 |
+|NoName4| 2-7-3 | +2+9 | +7+A | +3+5 | 0.4 |
+|NoName5| 2-8-2 | +2+A | +8+A | +2+4 | 0.583 |
+
+(Who would have guessed that the sus chords are inversions of each other?)
+
+#### >= 1
+These are many and they don't sound too well so I omit the till now (But with tetrads I should include them because maj7 sounds kinda nice)
 
 # Equations I guess?
 <!--- Generated with https://www.codecogs.com/latex/eqneditor.php -->
