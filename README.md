@@ -155,43 +155,6 @@ Additionaly there are so called inversions of chords. You construct them by shif
 
 Notation of chords with more than three notes (in traditional notation) usually is a bit hard to read, i refer to wikipedia for that... https://en.wikipedia.org/wiki/Chord_(music)#Notation_in_popular_music
 
-## Chords appendix
-
-(Just jotting down some ideas, will rewrite in future)
-
-We can interpret a Triad just like a scale. Meaning that the between intervals form a circle. Starting from another step is the same as forming an inversion or generating a mode. Mode and inversions can be seen as synonymous. By arranging all possible combinations we can form all viable triads. I'll sort them by minimum step size.
-
-Dissonance is calculated by adding up the dissonance of each occurring interval and then dividing by the count.
-
-#### >= 4
-|Name|Steps|Root|1.Inv|2.Inv|Dissonance|
-|-|-|-|-|-|-|
-|Augmented| 4-4-4 | +4+8 | +4+8 | +4+8 | 0.35 |
-
-(Steps of inversions are identical in this case)
-
-#### >= 3
-|Name|Steps|Root|1.Inv|2.Inv|Dissonance|
-|-|-|-|-|-|-|
-|Major| 4-3-5 | +4+7 | +3+8 | +5+9 | 0.283 |
-|Minor| 3-4-5 | +3+7 | +4+9 | +5+8 | 0.283 |
-|Diminished| 3-3-6 | +3+6 | +3+9 | +6+9 | 0.5 |
-
-#### >= 2
-|Name|Steps|Root|1.Inv|2.Inv|Dissonance|
-|-|-|-|-|-|-|
-|NoName1| 2-3-7 | +2+5 | +3+A | +7+9 | 0.4 |
-|NoName2| 2-4-6 | +2+6 | +4+A | +6+8 | 0.438 |
-|Sus2/5 | 2-5-5 | +2+7 | +5+A | +5+7 | 0.383 |
-|NoName3| 2-6-4 | +2+8 | +6+A | +4+6 | 0.438 |
-|NoName4| 2-7-3 | +2+9 | +7+A | +3+5 | 0.4 |
-|NoName5| 2-8-2 | +2+A | +8+A | +2+4 | 0.583 |
-
-(Who would have guessed that the sus chords are inversions of each other?)
-
-#### >= 1
-These are many and they don't sound too well so I omit the till now (But with tetrads I should include them because maj7 sounds kinda nice)
-
 # Equations I guess?
 <!--- Generated with https://www.codecogs.com/latex/eqneditor.php -->
 
@@ -326,7 +289,96 @@ SlashChord = C/G = G|C|E = 7|0|4 = 0_{\#-1}
 -->
 
 ### Why use this?
-Because it has one big strong point. If you learn the relatively easy principles how to build a chord with this system, you can read and write any possible chord existing inside the 12-tone equal temperament system. 
+Because it has one big strong point. If you learn the relatively easy principles how to build a chord with this system, you can read and write any possible chord existing inside the 12-tone equal temperament system.
+
+# Chords appendix
+
+(Just jotting down some ideas, will rewrite in future)
+
+We can interpret a Triad just like a scale. Meaning that the between intervals form a circle. Starting from another step is the same as forming an inversion or generating a mode. Mode and inversions can be seen as synonymous. By arranging all possible combinations we can form all viable triads. I'll sort them by minimum step size.
+
+Dissonance is calculated by adding up the dissonance of each occurring interval and then dividing by the count.
+
+#### >= 4
+|Name|Steps|Root|1.Inv|2.Inv|Dissonance|
+|-|-|-|-|-|-|
+|Augmented| 4-4-4 | +4+8 | +4+8 | +4+8 | 0.35 |
+
+(Steps of inversions are identical in this case)
+
+#### >= 3
+|Name|Steps|Root|1.Inv|2.Inv|Dissonance|
+|-|-|-|-|-|-|
+|Major| 4-3-5 | +4+7 | +3+8 | +5+9 | 0.283 |
+|Minor| 3-4-5 | +3+7 | +4+9 | +5+8 | 0.283 |
+|Diminished| 3-3-6 | +3+6 | +3+9 | +6+9 | 0.5 |
+
+#### >= 2
+|Name|Steps|Root|1.Inv|2.Inv|Dissonance|
+|-|-|-|-|-|-|
+|NoName1| 2-3-7 | +2+5 | +3+A | +7+9 | 0.4 |
+|NoName2| 2-4-6 | +2+6 | +4+A | +6+8 | 0.438 |
+|Sus2/5 | 2-5-5 | +2+7 | +5+A | +5+7 | 0.383 |
+|NoName3| 2-6-4 | +2+8 | +6+A | +4+6 | 0.438 |
+|NoName4| 2-7-3 | +2+9 | +7+A | +3+5 | 0.4 |
+|NoName5| 2-8-2 | +2+A | +8+A | +2+4 | 0.583 |
+
+(Who would have guessed that the sus chords are inversions of each other?)
+
+#### >= 1
+These are many and they don't sound too well so I omit the till now
+
+### Tetrads
+
+#### >= 3
+|Name|Steps|Root|1.Inv|2.Inv|3.Inv|Dissonance|
+|-|-|-|-|-|-|-|
+|d+9|3-3-3-3|+3+6+9|+3+6+9|+3+6+9|+3+6+9|?|
+
+#### >= 2
+|Name|Steps|Root|1.Inv|2.Inv|3.Inv|Dissonance|
+|-|-|-|-|-|-|-|
+|NN6|2-2-2-6|?|?|?|?|?|
+|#+2|2-2-3-5|?|?|?|?|?|
+|a+2 / a+6 / a+A|2-2-4-4|?|?|?|?|?|
+|%+5|2-2-5-3|?|?|?|?|?|
+|NN7|2-3-2-5|?|?|?|?|?|
+|NN8|2-4-2-4|?|?|?|?|?|
+|%+9 / d+A|2-3-3-4|?|?|?|?|?|
+|#+A / d+8|2-4-3-3|?|?|?|?|?|
+|%+A / #+9|2-3-4-3|?|?|?|?|?|
+
+(Looks like Minor7 is inversion of Major6)
+
+#### >= 1 (But with no ones next to each other)
+|Name|Steps|Root|1.Inv|2.Inv|3.Inv|Dissonance|
+|-|-|-|-|-|-|-|
+|NN9 |1-2-2-7|?|?|?|?|?|
+|NN10|1-2-3-6|?|?|?|?|?|
+|NN11|1-2-4-5|?|?|?|?|?|
+|NN12|1-2-5-4|?|?|?|?|?|
+|NN13|1-2-6-3|?|?|?|?|?|
+|NN14|1-2-7-2|?|?|?|?|?|
+|NN15|1-3-2-6|?|?|?|?|?|
+|NN16|1-3-3-5|?|?|?|?|?|
+|%+B|1-3-4-4|?|?|?|?|?|
+|NN18|1-3-5-3|?|?|?|?|?|
+|NN19|1-3-6-2|?|?|?|?|?|
+|NN20|1-4-2-5|?|?|?|?|?|
+|%+B|1-4-3-4|?|?|?|?|?|
+|a+B|1-4-4-3|?|?|?|?|?|
+|NN23|1-4-5-2|?|?|?|?|?|
+|NN24|1-5-2-4|?|?|?|?|?|
+|NN25|1-5-3-3|?|?|?|?|?|
+|NN26|1-5-4-2|?|?|?|?|?|
+|NN27|1-6-2-3|?|?|?|?|?|
+|NN28|1-6-3-2|?|?|?|?|?|
+|NN29|1-7-2-2|?|?|?|?|?|
+
+|NN30|1-2-1-8|?|?|?|?|?|
+|NN31|1-3-1-7|?|?|?|?|?|
+|NN32|1-4-1-6|?|?|?|?|?|
+|NN33|1-5-1-5|?|?|?|?|?|
 
 # Stuff i want to say but doesn't fit anywhere
 
