@@ -47,7 +47,7 @@ To estimate how consonant or dissonnant a chord will sound it can be useful to "
 |---------|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|
 |Trad. Name|Perfect Unison|Minor second|Major second|Minor third|Major third|Perfect fourth|Tritone|Perfect Fifth|Minor Sixth|Major sixth|Minor Seventh|Major Seventh|Perfect Octave|
 |~Ratio| 1:1 |16:15|9:8|6:5|5:4|4:3|17:12|3:2|8:5|5:3|16:9|15:8|2:1|
-|Dissonance| 0.0| 1.0 | 0.8 | 0.4 | 0.3 | 0.1 | 0.7 | 0.1 | 0.3 | 0.4 | 0.8 | 1.0 | 0.0 |
+|Dissonance| 0.0| 1.0 | 0.7 | 0.4 | 0.35| 0.1 | 0.7 | 0.1 | 0.35| 0.4 | 0.7 | 1.0 | 0.0 |
 
 # What is a scale?
 
