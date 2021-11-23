@@ -3,6 +3,11 @@
 #### AKA Music theory for people who are disappointed with the inconsistency of current notation
 #### AKA Music theory exclusively for me myself and no other human being
 
+<!---
+# Preface
+Add stuff about how this idea came to me. How it helped me composing. What music school just couldn't convey to a person like me. How it may help others. Any why math and number are grand :-D
+-->
+
 # What is a note?
 To be super general, a note itself is nothing but a sound-wave with a distinct frequency. 1337Hz for example, that's a note. But what usually is meant when most musical persons talk about notes is a note in the western 12-tone-equal-temperament-system. Virtually all pop music, from classic till today is written in it (or slightest variations of it). This system builds on the repetition of 12 reoccurring notes.
 
@@ -38,6 +43,8 @@ This notation will get us the relative pitch pretty easily, but we need another 
 # What is an interval?
 
 The space between two played notes is called an interval. For example we already know that if two notes are 12 steps or semitones apart it's called an octave. The really interesting part about intervals is how they sound together. Frequencies with simple rations to each other usually sound nice together. But there are also other things to factor in. The distance to the base note for example. A somewhat bad sounding interval usually is way more bearable if played an octave higher. Also the so called overtones an instrument produces are a huge factor and can totally mess up the perceived consonance or dissonance of the intervals.
+
+This mechanic is excellently portrayed at https://imaginary.github.io/ScaleLab/ (Github repo at: https://github.com/IMAGINARY/ScaleLab)
 
 To take this further apart from the somewhat similar concpet of notes. The difference between intervals and notes is as subtle and yet important as the difference between the number 2 and the function +2.
 
@@ -75,8 +82,21 @@ and the (natural) minor scale (which most people describe as "sad")
 |Between|2|1|2|2|1|2|2|
 |Relative|2|3|5|7|8|A|10|
 
+(When musicians are talking about a specific step of a scale, the usually refer to it as a degree. This means the first note of the scale is called the first degree, and so on. These are also usually written as roman numerals (IV = fourth degree). If the roman numeral is lowercase this means a minor chord can be formed with this note as root. If uppercase a major chord can be built. Additional symbols can convey even more information.)
+
 When you look closely at the "between" steps of major and minor you can see that the scheme is actually the same, just starting at two steps further and wrapping around. This way you can alter any scale that goes from base to octave and make as many variants or modes as many steps the scale has. Using this technique we can generate the so called "(gregorian) modes" which all have their musical use and sound distinct from each other. These are all modes sorted from "happy" to "sad" or "light" to "dark"
 
+|Name|Between-Steps|Root-Relative-Steps|
+|-|:-:|:-:|
+|Lydian       |2 - 2 - 2 - 1 - 2 - 2 - 1|+2 +4 +6 +7 +9 +B +10|
+|Ionian/Major |2 - 2 - 1 - 2 - 2 - 2 - 1|+2 +4 +5 +7 +9 +B +10|
+|Mixolydian   |2 - 2 - 1 - 2 - 2 - 1 - 2|+2 +4 +5 +7 +9 +A +10|
+|Dorian       |2 - 1 - 2 - 2 - 2 - 1 - 2|+2 +3 +5 +7 +9 +A +10|
+|Aeolian/Minor|2 - 1 - 2 - 2 - 1 - 2 - 2|+2 +3 +5 +7 +8 +A +10|
+|Phrygian     |1 - 2 - 2 - 2 - 1 - 2 - 2|+1 +3 +5 +7 +8 +A +10|
+|Locrian      |1 - 2 - 2 - 1 - 2 - 2 - 2|+1 +3 +5 +6 +8 +A +10|
+
+<!--- Could be more compact. See above.
 |Lydian|1|2|3|4|5|6|0|
 |-|-|-|-|-|-|-|-|
 |Between|2|2|2|1|2|2|1|
@@ -112,13 +132,15 @@ When you look closely at the "between" steps of major and minor you can see that
 |Between|1|2|2|1|2|2|2|
 |Relative|1|3|5|6|8|A|10|
 
+-->
+
 Now what is this all for you may ask? Well in music it can be quite difficult for a piece to sound coherent. Most musicians try to avoid notes which are "clashing" with each other. When you restrict the used notes of a musical piece to mostly those of a chosen scale you can achieve that more easily.
 
 If you're interested in what other scales there are you can browse through this great site! https://ianring.com/musictheory/scales/
 
 # What is a chord?
 
-Now a chord is nothing but a set of notes played together at the same time. These are grouped by the amount of note played simultaneously. A three note chord is called a triad and these ones are the most common ones. If you only play two notes most people call it "power chord" (only god knows why). If you play more than three notes people usually can get really creative with chord naming so I'll spare you that.
+Now a chord is nothing but a set of notes played together at the same time. These are grouped by the amount of notes played simultaneously. A three note chord is called a triad and these ones are the most common ones. If you only play two notes most people call it a "power chord" (seldomly Dyad). Four note chords are Tetrads, five note chords pentads, and so on.
 
 The root note, which is usually the lowest note of the chord, gives the chord its name. You can construct a chord similarly to a scale by starting at the root note and adding steps. There are four common triads.
 
@@ -143,8 +165,6 @@ The root note, which is usually the lowest note of the chord, gives the chord it
 |Relative|0|4|8|
 
 So for example; If you wanted to play an E Augmented chord which is a 4 in integer notation. You would play the notes 4, 8, 0 .
-
-(There is a relly cool and compact notation i came up with to convert something like a Cmaj7#11 or Fmaj7b5/E chord to something wich isn't only compact but more intuitively playable because it follows a system which expresses added notes more equally. But i need latex for that to display both subscript and superscript symbols. I'll add it soon. Trust me, it's super cool.)
 
 Additionaly there are so called inversions of chords. You construct them by shifting the lowest note up an octave so that the lowest note is no longer the root. The first inversion is if you do this once, the second inversion if done twice, so the third note would be the lowest in this case. With the upper example starting with E2 it would result in
 
@@ -202,7 +222,7 @@ G5 = G|C = 7|0 = 7_{\#}^{o+4} = 7_{\#}^{o4} = 7^{+7}
 You may skip the sign after the "o" if the note isn't ambiguous (means there is no +x AND -x at the same time inside the macro of the subscript)
 
 ### Inversions
-<img src="https://latex.codecogs.com/png.latex?%5Cdpi%7B150%7D%20%5Cbg_white%20%5Clarge%20%5C%5C0%7C4%7C7%20%3D%200%5E%7B&plus;4&plus;7%7D%20%3D%200_%7B%5C%23%7D%5C%5C%204%7C7%7C0%20%3D%200%5E%7Bo0&plus;10%7D_%7B%5C%23%7D%20%3D%200_%7B%5C%23&plus;1%7D%20%3D%200_%7B%5C%23-2%7D%5C%5C%207%7C0%7C4%20%3D%200%5E%7Bo4&plus;14%7D_%7B%5C%23&plus;1%7D%20%3D%200_%7B%5C%23&plus;2%7D%20%3D%200_%7B%5C%23-1%7D%5C%5C%20%5C%5C%2024%7C27%7C30%20%3D%2020_%7B%5C%23&plus;1%7D%5Cneq20_%7B%5C%23-2%7D%20%3D%2013%7C17%7C20">
+<img src="https://latex.codecogs.com/png.latex?%5Cdpi%7B150%7D%20%5Cbg_white%20%5Clarge%20%5C%5C0%7C4%7C7%20%3D%200%5E%7B&plus;4&plus;7%7D%20%3D%200_%7B%5C%23%7D%5C%5C%204%7C7%7C0%20%3D%200%5E%7Bo0&plus;10%7D_%7B%5C%23%7D%20%3D%200_%7B%5C%23&plus;1%7D%20%3D%200_%7B%5C%23-2%7D%5C%5C%207%7C0%7C4%20%3D%200%5E%7Bo4&plus;14%7D_%7B%5C%23&plus;1%7D%20%3D%200_%7B%5C%23&plus;2%7D%20%3D%200_%7B%5C%23-1%7D%5C%5C%20%5C%5C%2024%7C27%7C30%20%3D%2020_%7B%5C%23&plus;1%7D%5Cneq20_%7B%5C%23-2%7D%20%3D%2014%7C17%7C20">
 <!---
 \\0|4|7 = 0^{+4+7} = 0_{\#}\\
 4|7|0 = 0^{o0+10}_{\#} = 0_{\#+1} = 0_{\#-2}\\
