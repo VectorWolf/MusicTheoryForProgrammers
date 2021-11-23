@@ -346,7 +346,17 @@ Dissonance is calculated by adding up the dissonance of each occurring interval 
 (Who would have guessed that the sus chords are inversions of each other?)
 
 #### >= 1
-These are many and they don't sound too well so I omit the till now
+|Name|Steps|Root|1.Inv|2.Inv|Dissonance|
+|-|-|-|-|-|-|
+|NoName1| 1-1-A | +1+2|+1+B|+A+B|0.9 |
+|NoName1| 1-2-9 | +1+3|+2+B|+9+A|0.7 |
+|NoName1| 1-3-8 | +1+4|+3+B|+8+9|0.583 |
+|NoName1| 1-4-7 | +1+5|+4+B|+7+8|0.483 |
+|NoName1| 1-5-6 | +1+6|+5+B|+6+7|0.6 |
+|NoName1| 1-6-5 | +1+7|+6+B|+5+6|0.6 |
+|NoName1| 1-7-4 | +1+8|+7+B|+4+5|0.483 |
+|NoName1| 1-8-3 | +1+9|+8+B|+3+4|0.583 |
+|NoName1| 1-9-2 | +1+A|+9+B|+2+3|0.7 |
 
 ### Tetrads
 
